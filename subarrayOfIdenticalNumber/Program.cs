@@ -20,7 +20,6 @@
             arrayOfIntegers[indexArrayOfIntegers] = random.Next(minimumRandomNumber, maximumRandomNumber);
             Console.Write(arrayOfIntegers[indexArrayOfIntegers] + " ");
         }
-        Console.WriteLine();
 
         for (indexArrayOfIntegers = 0; indexArrayOfIntegers < arrayOfIntegers.Length - 1; indexArrayOfIntegers++)
         {
@@ -40,6 +39,6 @@
                 repeatingNumber = arrayOfIntegers[indexArrayOfIntegers];
             }
         }
-        Console.WriteLine($"Число {repeatingNumber} повторяется {comparisonRepeatCounter} раз.");
+        Console.WriteLine($"\nЧисло {repeatingNumber} повторяется {comparisonRepeatCounter} раз.");
     }
 }
